@@ -11,19 +11,26 @@ open index.hdml #open code#
 code . #opened folder in vscode#
 
 #to put lines into all of the files use echo at the start of each line#
-echo <!DOCTYPE html>
-echo <html lang="en" dir="ltr">
-echo <head>
-echo <meta charset="utf-8">
-echo <meta name="viewport" content="width=device-width, initial-scale=1">
-echo <title>RPS-Benkovich</title>
-echo <link href="css/global.css" rel="stylesheet">
-echo <link href="css/modnorm.css" rel="stylesheet">
-echo <link href="css/style.css" rel="stylesheet">
-echo </head>
-echo <body>
-echo <main>
-echo </main>
-echo <script>
-echo </script>
-echo </html>
+echo" <!DOCTYPE html>" >> index.html
+echo" <html lang="en" dir="ltr">" >> index.html
+echo" <head>" >> index.html
+echo" <meta charset="utf-8">" >> index.html
+echo" <meta name="viewport" content="width=device-width, initial-scale=1">" >> index.html
+echo" <title>RPS-Benkovich</title>" >> index.html
+echo" <link href="css/global.css" rel="stylesheet">" >> index.html
+echo" <link href="css/modnorm.css" rel="stylesheet">" >> index.html
+echo" <link href="css/style.css" rel="stylesheet">" >> index.html
+echo" </head>" >> index.html
+echo" <body>" >> index.html
+echo" <main>" >> index.html
+echo" </main>" >> index.html
+echo" <script>" >> index.html
+echo" </script>" >> index.html
+echo" </html>" >> index.html
+
+echo" body {" >> style.css
+echo"  width: 65%;" >> style.css
+echo"  margin: auto;" >> style.css
+echo"  background-color: }" >> style.css
+echo" h1 {}" >> style.css
+echo" main {}" >> style.css
